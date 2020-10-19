@@ -1,7 +1,8 @@
 site_name: Testcontainers
 plugins:
     - search
-    - codeinclude
+    - codeinclude:
+        title_mode: pymdownx.tabbed
     - markdownextradata
 theme:
     name: 'material'
@@ -20,6 +21,7 @@ markdown_extensions:
     - codehilite:
           linenums: False
     - pymdownx.superfences
+    - pymdownx.tabbed
     - pymdownx.snippets
 nav:
     - Home: index.md

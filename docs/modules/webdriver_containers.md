@@ -81,11 +81,13 @@ A few different examples are shown in [ChromeWebDriverContainerTest.java](https:
 
 Add the following dependency to your `pom.xml`/`build.gradle` file:
 
-```groovy tab='Gradle'
+=== Gradle
+```groovy
 testCompile "org.testcontainers:selenium:{{latest_version}}"
 ```
 
-```xml tab='Maven'
+=== Maven
+```xml
 <dependency>
     <groupId>org.testcontainers</groupId>
     <artifactId>selenium</artifactId>
@@ -97,11 +99,13 @@ testCompile "org.testcontainers:selenium:{{latest_version}}"
 !!! hint
     Adding this Testcontainers library JAR will not automatically add a Selenium Webdriver JAR to your project. You should ensure that your project also has suitable Selenium dependencies in place, for example:
 
-    ```groovy tab='Gradle'
+    === Gradle
+```groovy
     compile "org.seleniumhq.selenium:selenium-remote-driver:3.141.59"
     ```
     
-    ```xml tab='Maven'
+    === Maven
+```xml
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-remote-driver</artifactId>

@@ -1,8 +1,7 @@
 site_name: Testcontainers
 plugins:
     - search
-    - codeinclude:
-        title_mode: pymdownx.tabbed
+    - codeinclude
     - markdownextradata
 theme:
     name: 'material'

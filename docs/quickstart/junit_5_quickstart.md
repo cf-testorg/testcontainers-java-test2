@@ -21,7 +21,7 @@ Let's start from here, and see how to improve the test with Testcontainers:
 
 First, add Testcontainers as a dependency as follows:
 
-=== Gradle
+=== "Gradle"
 ```groovy
 def junitJupiterVersion = '5.4.2'
 testCompile "org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion"
@@ -30,8 +30,7 @@ testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitJupiterVersion"
 testCompile "org.testcontainers:testcontainers:{{latest_version}}"
 testCompile "org.testcontainers:junit-jupiter:{{latest_version}}"
 ```
-
-=== Maven
+=== "Maven"
 ```xml
 <dependency>
     <groupId>org.junit.jupiter</groupId>

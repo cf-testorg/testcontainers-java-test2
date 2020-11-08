@@ -45,12 +45,11 @@ You are not limited to Unit tests and can of course use an instance of the Orien
 
 Add the following dependency to your `pom.xml`/`build.gradle` file:
 
-=== Gradle
+=== "Gradle"
 ```groovy
 testCompile "org.testcontainers:orientdb:{{latest_version}}"
 ```
-
-=== Maven
+=== "Maven"
 ```xml
 <dependency>
     <groupId>org.testcontainers</groupId>
@@ -63,12 +62,12 @@ testCompile "org.testcontainers:orientdb:{{latest_version}}"
 !!! hint
     Add the OrientDB Java client if you plan to access the Testcontainer:
     
-    === Gradle
+    === "Gradle"
 ```groovy
     compile "com.orientechnologies:orientdb-client:3.0.24"
     ```
     
-    === Maven
+    === "Maven"
 ```xml
     <dependency>
         <groupId>com.orientechnologies</groupId>

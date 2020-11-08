@@ -31,12 +31,11 @@ Testcontainers is distributed as separate JARs with a common version number:
 
 For the core library, the latest Maven/Gradle dependency is as follows: 
 
-=== Gradle
+=== "Gradle"
 ```groovy
 testCompile "org.testcontainers:testcontainers:{{latest_version}}"
 ```
-
-=== Maven
+=== "Maven"
 ```xml
 <dependency>
     <groupId>org.testcontainers</groupId>
@@ -53,8 +52,7 @@ You can also [check the latest version available on Maven Central](https://searc
 To avoid specifying the version of each dependency, you can use a `BOM` or `Bill Of Materials`.
 
 Using Maven you can add the following to `dependencyManagement` section in your `pom.xml`:
-
-=== Maven
+=== "Maven"
 ```xml
 <dependencyManagement>
     <dependencies>
@@ -69,8 +67,7 @@ Using Maven you can add the following to `dependencyManagement` section in your 
 </dependencyManagement>
 ```
 and then use dependencies without specifying a version:
-
-=== Maven
+=== "Maven"
 ```xml
 <dependency>
     <groupId>org.testcontainers</groupId>
@@ -81,7 +78,7 @@ and then use dependencies without specifying a version:
 
 Using Gradle 5.0 or higher, you can add the following to the `dependencies` section in your `build.gradle`:
 
-=== Gradle
+=== "Gradle"
 ```groovy
 implementation platform('org.testcontainers:testcontainers-bom:{{latest_version}}') //import bom
 testImplementation('org.testcontainers:mysql') //no version specified

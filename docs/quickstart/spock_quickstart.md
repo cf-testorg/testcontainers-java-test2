@@ -39,7 +39,8 @@ testCompile "org.testcontainers:spock:{{latest_version}}"
 
 Annotate the Spock specification class with the Testcontainers extension:
 
-```groovy tab='Spock Testcontainers annotation'
+=== "Spock Testcontainers annotation"
+```groovy
 @org.testcontainers.spock.Testcontainers
 class RedisBackedCacheIntTest extends Specification {
 ```

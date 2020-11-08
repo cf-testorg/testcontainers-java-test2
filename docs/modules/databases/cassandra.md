@@ -4,7 +4,8 @@
 
 This example connects to the Cassandra Cluster, creates a keyspaces and asserts that is has been created.
 
-```java tab="JUnit 4 example"
+=== "JUnit 4 example"
+```java
 public class SomeTest {
 
     @Rule

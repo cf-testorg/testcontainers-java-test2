@@ -16,7 +16,8 @@ On the JVM you would most likely use the [Java driver](https://github.com/).
 
 The following example uses the JUnit 5 extension `@Testcontainers` and demonstrates both the usage of the Java Client:
 
-```java tab="JUnit 5 example"
+=== "JUnit 5 example"
+```java
 @Testcontainers
 public class ExampleTest {
 
@@ -63,12 +64,11 @@ testCompile "org.testcontainers:orientdb:{{latest_version}}"
     Add the OrientDB Java client if you plan to access the Testcontainer:
     
     === "Gradle"
-```groovy
+    ```groovy
     compile "com.orientechnologies:orientdb-client:3.0.24"
     ```
-    
     === "Maven"
-```xml
+    ```xml
     <dependency>
         <groupId>com.orientechnologies</groupId>
         <artifactId>orientdb-client</artifactId>

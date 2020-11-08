@@ -99,12 +99,11 @@ testCompile "org.testcontainers:selenium:{{latest_version}}"
     Adding this Testcontainers library JAR will not automatically add a Selenium Webdriver JAR to your project. You should ensure that your project also has suitable Selenium dependencies in place, for example:
 
     === "Gradle"
-```groovy
+    ```groovy
     compile "org.seleniumhq.selenium:selenium-remote-driver:3.141.59"
     ```
-    
     === "Maven"
-```xml
+    ```xml
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-remote-driver</artifactId>
